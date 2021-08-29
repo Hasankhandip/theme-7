@@ -1,0 +1,462 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-section {
+	background: #fff;
+    height:90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: 999999999999;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    height:90px;
+}
+.header-logo a{
+    font-family: 'Kaushan Script', cursive;
+    color: #000;
+    font-size:40px;
+    font-weight:400;
+    text-decoration: none;
+}
+.nav-item ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    height:90px;
+}
+.nav-item ul li{
+    list-style:none;
+    display: inline-block;
+}
+.nav-item ul li a{
+    margin:0 10px;
+    font-size:12px;
+    letter-spacing:1.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#777;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    transition: .4s;
+}
+.nav-item ul li a:hover{
+    color: #000;
+}
+.actv-nav{
+    color: #000 !important;
+}
+.banner-section {
+	margin-top: 90px;
+}
+.banner-img{
+    text-align:right;
+}
+.banner-img img{
+    width:380px;
+    margin-top:80px;
+    margin-right:20px;
+}
+.banner-text {
+	margin-top:200px;
+}
+.banner-text h1{
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+.banner-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #6e6e6e;
+    line-height:25px;
+    margin-left: 10px;
+    font-weight: 300;
+    margin-bottom:40px;
+}
+.banner-btn a{
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #111;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-family: 'Kaushan Script', cursive;
+    transition: .4s;
+}
+.banner-btn a:hover{
+    color: #fff;
+    background: #000;
+}
+.bb-mr{
+    margin-right:15px;
+}
+.about-section {
+	margin-top: 60px;
+}
+.about-details h5{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
+    font-size:20px;
+    margin-bottom:8px;
+}
+.b-bottom{
+    border:0.8px dashed #818080;
+    margin-bottom: 8px;
+}
+.about-details p{
+    margin-bottom: 0;
+    font-size:14px;
+    font-family: 'Poppins', sans-serif;
+}
+.about-row{
+    padding: 25px;
+    border-left: 1px solid #99999930;
+    border-right: 1px solid #99999930;
+}
+.about-details h2{
+    font-size: 26px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 25px;
+    margin-bottom:10px;
+}
+.about-details h3{
+    margin-left: 25px;
+    margin-bottom: 0;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #6e6e6e;
+    line-height:23px;
+    font-weight: 300;
+}
+.about-row .col-lg-3,.col-lg-9{
+    padding: 0;
+}
+.about-details span {
+	font-size: 13px;
+	color: #6e6e6e;
+}
+.wid-hdr h2{
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.what-i-do-section{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.wid-details span {
+	font-size: 50px;
+    color: #000;
+}
+.wid-details h5 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	color: #000;
+    text-transform: uppercase;
+}
+.wid-details p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight:400;
+    margin-bottom:10px;
+    color:#555;
+}
+.skill-name span{
+    font-size:13px;
+    width:50%;
+    text-align: right;
+    color: #000;
+}
+.skill-name p{
+    font-size:13px;
+    width:50%;
+    color: #000;
+    margin-bottom:3px;
+}
+.skill-point {
+	width: 100%;
+	height: 15px;
+	border: 1px solid #000;
+    padding:2px;
+}
+.skill-point-1 {
+	width: 70%;
+	height: 100%;
+	background:#000;
+}
+.skill-point-2 {
+	width: 75%;
+	height: 100%;
+	background:#000;
+}
+.skill-point-3{
+	width:65%;
+	height: 100%;
+	background:#000;
+}
+.res-phn {
+	font-size: 30px;
+}
+.education-section{
+    margin-bottom: 60px;
+}
+.edu-hdr h2{
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 50px;
+    text-align: center;        
+}
+.accordion-button span{
+    margin-left: 580px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+.accordion-button p{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+.accordion-button:focus {
+	border-color:none;
+	outline: none;
+	box-shadow:none;
+}
+.accordion-button:not(.collapsed) {
+    color: #000;
+}
+.accordion-body p,span{
+    text-align: right;
+    margin-bottom: 5px;
+}
+.mr{
+    margin-right:120px;
+}
+.accordion-button:not(.collapsed)::after {
+	content: "\f078";
+    font-family: FontAwesome;
+	transform: rotate(180deg);
+    background-image:none;
+}
+.accordion-button::after {
+	background-image: none;
+	content: "\f078";
+	font-family: FontAwesome;
+	font-size: 25px;
+	position: absolute;
+	top: 17px;
+	right: 20px;
+}
+.project-section {
+	margin-bottom: 70px;
+}
+.project-hdr h2{
+    font-family: 'Kaushan Script', cursive;
+margin-bottom: 50px;
+text-align: center;
+}
+.banner-btn {
+	margin-top: 30px;
+    display: inline-block;
+}
+.project-img {
+	margin-bottom:40px;
+}
+.project-img img{
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.4s ease;
+}
+.ps-mb{
+    margin-bottom:50px;
+}
+.project-img img:hover{
+        transform: scale(1.08) translateZ(0);
+}   
+.banner-btn a:hover .project-img img{
+    transform: scale(1.08) translateZ(0) !important;
+}
+.project-img:hover .banner-btn a{
+    color: #fff;
+    background: #000;
+}
+.coming-soon{
+    width: 356px;
+    height: 202.983px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(241, 237, 237, 0.924);
+}
+.coming-soon h1{
+    font-family: 'Kaushan Script', cursive;
+}
+.contact-hdr h2{
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact-hdr p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+.contact-details{
+    margin-top:80px;
+}
+.cd-icon {
+	text-align: center;
+    margin-bottom:20px;
+}
+.cd-icon i{
+    font-size: 35px;
+}
+.cd-name h4 {
+	text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 15px;
+}
+.cd-name p {
+	text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-bottom:15px;
+}
+.cd-name a {
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+}
+.cd-name a:hover{
+    text-decoration: underline;
+}
+.form-details{
+    display: block;
+    width: 100%;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    box-shadow: none;
+    border-left:1px solid rgba(153, 153, 153, 0.411);
+    border-right:1px solid rgba(153, 153, 153, 0.411);
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+    padding: 10px;
+    margin-bottom:30px;
+}
+.form-details:focus{
+    outline: none;
+    box-shadow: none;
+    border-left:1px solid rgba(153, 153, 153, 0.267);
+    border-right:1px solid rgba(153, 153, 153, 0.267);
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+}
+.contact-form{
+    margin-top:70px;
+}
+.form-text{
+    width:100%;
+    margin-top: 0;
+    border-left:1px solid rgba(153, 153, 153, 0.411);
+    border-right:1px solid rgba(153, 153, 153, 0.411);
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+    padding: 10px;
+    color: #767676;
+    height:194px;
+    margin-bottom:25px;
+}
+.form-text:focus{
+    outline: none;
+    border-left:1px solid rgba(153, 153, 153, 0.267);
+    border-right:1px solid rgba(153, 153, 153, 0.267);
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+}
+.tr{
+    display: block;
+    text-align: right;
+}
+.tac{
+    text-align: center !important;
+    margin-bottom: 15px;
+}
+.tac a{
+    font-family: 'Kaushan Script', cursive;
+    color: #000;
+    font-size:40px;
+    font-weight:400;
+    text-decoration: none;
+}
+.end-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    text-align: center;
+    margin-bottom:25px;
+}
+.end-section {
+	margin: 60px 0 100px 0;
+}
+.social-icon{
+    text-align: center;
+}
+.social-icon a{
+    display: inline-block !important;
+    text-decoration: none;
+    margin:0 10px 0 10px;
+}
+.social-icon a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    width:30px !important;
+    height:30px !important;
+    border-radius: 50%;
+    border:1px solid #111;
+    transition:.4s;
+}
+.social-icon a i:hover{
+    color: #fff;
+    background: #000;
+}
+.footer-section{
+    background: #000;
+    padding:20px 0;
+}
+.footer-item p{
+    color: #fff;
+    margin-bottom: 0;
+    font-size:13px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+.counter-up-item {
+	padding: 60px 0 80px 0;
+}
+.counter-up-box i {
+	font-size: 40px;
+	display: block;
+	text-align: center;
+    margin-bottom: 8px;
+}
+.counter-up-box h2 {
+	font-size: 35px;
+	text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+.counter-up-box p{
+    text-align: center;
+    margin-bottom: 0;
+}

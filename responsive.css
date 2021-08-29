@@ -1,0 +1,382 @@
+@media (max-width:2500px) {
+    .check,.three-dot{
+        visibility:hidden;
+        opacity: 0;
+        display:none;
+    }
+    .cross{
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+}
+@media (max-width:1200px) {
+    .check,.three-dot{
+        visibility:hidden;
+        opacity: 0 ;
+        display: none;
+    }
+    .cross{
+        visibility: hidden;
+        opacity: 0 ;
+        display: none;
+    }
+    .banner-text h1 {
+        font-size: 42px;
+    }
+    .banner-text {
+        margin-top: 160px;
+    }
+    .banner-img img {
+        width: 340px;
+        margin-top: 70px;
+    }
+    .banner-text p {
+        font-size: 15px;
+    }
+    .banner-btn {
+        margin-top:0;
+    }
+    .accordion-button span {
+        margin-left: 400px;
+    }
+    .banner-btn {
+        margin-top: 35px;
+    }
+}
+@media (max-width:992px) {
+    .nav-item{
+        position: relative;
+    }
+    .cross {
+        visibility:hidden;
+        opacity:0;
+        position: absolute;
+        top:22px;
+        right:3px;
+        display: block;
+        cursor: pointer;
+    }
+    .cross i {
+        font-size:46px !important;
+    }
+    .check:checked ~ .cross{
+        visibility:visible;
+        opacity:100%;
+        pointer-events: none;
+    }
+    .check:checked ~ .three-dot{
+        visibility:hidden;
+        opacity:0;
+    }
+    .check,.three-dot{
+        visibility: visible;
+        opacity: 100%;
+        display: block;
+    }
+    .three-dot i {
+        position: absolute;
+        top: 24px;
+        right: 1px;
+        pointer-events: none;
+        font-size: 41px;
+    }
+    .check {
+        position: absolute;
+        top: 27px;
+        right: 1px;
+        display: block;
+        width: 35px;
+        height: 35px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .nav-item ul {
+        display: block;
+        height:0;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 90px;
+        right: -147px;
+    }
+    .nav-item .check:checked ~ ul {
+        opacity: 1;
+        visibility: visible;
+        height: 100vh;
+        background: #fff;
+        width: 100%;
+        position: absolute;
+        right: -147px;
+        top: 85px;
+        padding-top: 80px;
+    }
+    .nav-item ul li{
+        display: block;
+        text-align: center;
+        transition: .3s;
+    }
+    .nav-item ul li a{
+        color: rgb(0, 0, 0);
+        padding:25px 0 !important;
+        display: block;
+        font-size:25px;
+    }
+    .banner-text h1 {
+        font-size: 33px;
+        margin-bottom: 20px;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+    .banner-img img {
+        width: 325px;
+        margin-left: 45px;
+    }
+    .banner-text p {
+        margin-left: 0;
+    }
+    .accordion-button span {
+        margin-left: 165px;
+    }
+    .tr {
+        text-align: left;
+    }
+}
+@media (max-width:768px) {
+    .nav-item .check:checked ~ ul {
+        right: -124px;
+        width:110%;
+    }
+    .banner-text h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        line-height: 34px;
+    }
+    .banner-text {
+        margin-top:70px;
+    }
+    .banner-text p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .banner-img img {
+        width: 250px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .about-details {
+        margin-bottom: 20px;
+    }
+    .about-details h2 {
+        margin-left:0;
+    }
+    .about-details h3 {
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .wid-details {
+        margin-bottom: 25px;
+    }
+    .accordion-button span {
+        margin-left: 85px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .accordion-button p {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    .accordion-button::after {
+        top: 12px;
+    }
+    .coming-soon {
+        width: 100%;
+        height: 293px;
+    }
+    .r-sm{
+        margin-top: 50px;
+    }
+    .end-text p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:576px){
+    .header-logo{
+        width:50%;
+    }
+    .nav-item{
+        position: inherit;
+        width:50%;
+    }
+    .cross{
+        top: 27px;
+        right: 36px;
+    }
+    .check {
+        top: 32px;
+        right: 35px;
+    }
+    .nav-item span i {
+        top: 29px;
+        right: 35px;
+    }
+    .nav-item .check:checked ~ ul {
+        right: 0px;
+        width: 60%;
+    }
+    .w-xs > *{
+        width: 50%;
+    }
+    .wid-details {
+        text-align: center;
+    }
+    .wid-details h5 {
+        margin: 12px 0;
+    }
+    .wid-details p {
+        padding: 0 100px;
+    }
+    .res-xs {
+        padding: 0 80px;
+    }
+    .skill-name {
+        padding: 0 80px;
+    }
+    .skill-name p {
+        padding: 0;
+        text-align: left;
+    }
+    .project-img {
+        padding: 0 30px;
+        margin-bottom: 50px;
+    }
+    .coming-soon {
+        height: 279px;
+    }
+    .cd-item {
+        margin-bottom: 50px;
+    }
+    .r-sm{
+        margin-top:0;
+    }
+    .end-text p {
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+    .footer-item p {
+        font-size: 12px;
+    }
+}
+@media (max-width:480px){
+    .banner-text h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .banner-text p {
+        font-size: 13px;
+        margin-bottom: 21px;
+    }
+    .banner-btn a {
+        margin-right: 0;
+        font-size: 14px;
+    }
+    .banner-img img {
+        width: 220px;
+        margin-top: 25px;
+    }
+    .wid-details p {
+        padding: 0 70px;
+        margin-bottom: 15px;
+    }
+    .skill-name p {
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    .accordion-button span {
+        margin-left: 47px;
+        font-size: 16px;
+    }
+    .footer-item p {
+        font-size: 11px;
+    }
+}
+@media (max-width:360px){
+    .w-xs > *{
+        width: 100%;
+    }.banner-text {
+        position: relative;
+        margin-top: 420px;
+    }
+    .banner-img {
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-text {
+        position: relative;
+        margin-top: 390px;
+        text-align: center;
+    }
+    .wid-details p {
+        padding: 0 30px;
+    }
+    .skill-name p {
+        padding: 0;
+    }
+    .res-xs {
+        padding: 0 40px;
+    }
+    .skill-name {
+        padding: 0 40px;
+    }
+    .accordion-button{
+        display: inherit;
+    }
+    .accordion-button span {
+        margin-left: 0;
+        font-size:18px;
+    }
+    .accordion-button p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .project-img {
+        padding: 0 15px;
+    }
+    .coming-soon {
+        height: 177px;
+    }
+    .project-section {
+        margin-bottom: 0px;
+    }
+    .cd-name p {
+        padding: 0 15px;
+    }
+    .end-text p {
+        padding: 0 ;
+    }
+    .footer-item p {
+        font-size: 8px;
+        padding: 0;
+    }
+    .footer-section {
+        padding: 15px 0;
+    }
+    .end-section {
+        margin: 60px 0;
+    }
+    .banner-img img {
+        width: 235px;
+    }
+    .banner-text {
+        margin-top: 410px;
+    }
+    .banner-btn {
+        margin-top: 25px;
+    }
+    .nav-item .check:checked ~ ul {
+        width: 70%;
+    }
+}
